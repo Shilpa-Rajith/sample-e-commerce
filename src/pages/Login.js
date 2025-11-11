@@ -4,7 +4,7 @@ import { login } from "../features/auth/authSlice";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Login() {
-  const [username, setUsername] = useState("");
+  const [username] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

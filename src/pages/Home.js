@@ -7,7 +7,6 @@ import card1 from '../images/card1.png';
 import card2 from '../images/card2.png';
 import card3 from '../images/card3.png';
 import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
 export default function Home() {
 
   const navigate =useNavigate();
